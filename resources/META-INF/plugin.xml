@@ -1,0 +1,41 @@
+<idea-plugin>
+  <id>com.jd.CocoDoc</id>
+  <name>CocoDoc</name>
+  <version>1.0.0</version>
+  <vendor email="zhangjunwu3@jd.com" url="https://github.com/zhangjunwu123/CocoDoc"></vendor>
+  <!--解决PSI相关class not def的问题-->
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.java</depends>
+
+  <description><![CDATA[
+       <p>Exporting rest interface is simple and efficient With CocoDoc</p>
+       <p>git: https://github.com/zhangjunwu123/CocoDoc</p>
+       <p>有问题请咚咚联系，ERP zhangjunwu3</p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+         <p>1.0.0 version</p>
+         <li>Compatible with IDEA version 2020.3 and later no longer supports previous versions</li>
+    ]]></change-notes>
+
+  <idea-version since-build="173.0"/>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+
+    <action id="main.java.com.jd.coco.action.DocGenerateAction"
+            class="main.java.com.jd.coco.action.DocGenerateAction"
+            text="CocoDoc文档生成工具" description="CocoDoc文档生成工具">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
+  </actions>
+
+
+
+
+</idea-plugin>
