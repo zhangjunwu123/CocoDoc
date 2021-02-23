@@ -8,5 +8,7 @@
 
 团队中前端与后端沟通所需文档，无需编译和启动，安装轻松，无需费时编写文档
 
+![Image text](https://github.com/zhangjunwu123/CocoDoc/blob/main/img/content1.jpg)
+
 ![Image text](https://github.com/zhangjunwu123/CocoDoc/blob/main/img/page.png)
 
